@@ -1,7 +1,7 @@
 # CoNFine
 A tiny project for people who are in self-isolation due to COVID-19. (In Progress)
 
-# Still under developmeny
+# Still under development
 
 ### I am a complete noob in Android Programming.
 
