@@ -1,15 +1,12 @@
-# Covid-App
-Open Repository for people to showcase Covid Based apps
+# CoNFine
+A tiny project for people who are in self-isolation due to COVID-19. (In Progress)
 
-## How to Contribute
+# Still under development
 
-* Fork this repository.
-* Clone this repository from your github page
-* Add your app files locally
-* Create a new branch
-* Add and Commit files
-* Push directory to the created branch.
+### I am a complete noob in Android Programming.
 
-### You can also update README.md to contribute
+#### This is just a very small contribution from my side for people in self-isolation.
+#### I hope atleast some of you can benefit from this app
 
-# HAPPY CODING!
+## I am open for suggestions for cleaning and organising my code.
+
