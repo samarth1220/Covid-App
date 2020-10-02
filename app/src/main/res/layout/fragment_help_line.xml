@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".HelpLineFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="30dp">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="8dp"
+                                android:orientation="vertical"
+                                android:layout_marginTop="80dp"
+                                android:paddingBottom="100dp">
+
+                                <Spinner
+                                    android:id="@+id/helpline_spinner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center" />
+
+                                <Button
+                                    android:id="@+id/call_helpline"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/round_blue_btn"
+                                    android:text="CALL"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:textColor="#fff"
+                                    android:layout_marginTop="30dp" />
+
+                            </LinearLayout>
+
+                    </ScrollView>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_blue_text"
+                android:ems="10"
+                android:fontFamily="@font/arbutus"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="10dp"
+                android:text="HELPLINE"
+                android:textColor="#5142B2"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
