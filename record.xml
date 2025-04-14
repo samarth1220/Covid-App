@@ -1,0 +1,9 @@
+<Response>
+    <Speak>Welcome! Your call will be recorded.</Speak>
+    <Record 
+        action="https://your-glitch-project.glitch.me/record_action" 
+        method="POST"
+        maxLength="300"
+        redirect="false"
+        playBeep="true" />
+</Response>
